@@ -1,0 +1,129 @@
+
+body {font-family: 'Roboto', sans-serif;}
+main{
+	position:absolute;
+	top:30px;
+	left:1350px;
+	
+	transform:translate(10%,10%);
+	width:350px;
+	height:560px;
+	overflow: hidden;
+}
+main .imageLesya,
+main .textLesya{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;	
+	transition:0.5s;
+}
+	main .imageLesya img{
+	width:100%;
+}
+main .textLesya{
+	background:rgba(46,45,45,0.9);
+	top:0;
+	left:100%;  
+	padding:30px 30px;
+}
+main:hover .textLesya{
+	top:0;
+	left:0;
+}
+main .textLesya h1{
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0 0 12px;
+	border-bottom: 2px solid white;
+	animation: anim 5s linear
+	infinite;
+}
+@keyframes anim{
+	0%{border-bottom: 2px solid
+	##ff4a63}
+	25%{border-bottom: 2px solid 
+	#ff576b;}
+	50%{border-bottom: 2px solid
+	#ffdbe0;}
+	75%{border-bottom: 2px solid
+	#ff576b;}
+	100%{border-bottom: 2px solid 
+	#ffffff;}
+}
+main .textLesya p{
+	margin:12px 0 0;
+	color:white;
+	letter-spacing: 0.6;
+	font-size:19px;
+}
+#TableLesya {
+	position:absolute;
+	top:700px;
+	left:1370px;
+	font-family:Georgia;
+}
+#TextWhite{color:white; border-radius:20px;}
+#Lapki {position:absolute;
+left:200px;
+}
+#Audio {position:absolute;
+left:75%;
+width:300px;
+height:150px;
+background:purple;
+text-align:center;
+color:white;
+}
+#LesyaPhoto1{
+	background:LightGray;
+	width:200px;
+	text-align:left;
+	position:absolute;
+	left:1545px;
+	bottom:-1895px;
+    float: right; 
+    margin: 7px 0 7px 7px;
+}
+#LesyaPhoto2  {
+    float:left; /*Вирівнювання по лівому краю */
+    margin: 7px 7px 7px 0; /* Відступи навколо картинки */
+   }
+   #LesyaPhoto4 {
+	   float: right; 
+    margin: 7px 0 7px 7px;
+   }
+   #Right{text-align:left;
+   position:absolute;
+  top:5370px;
+  left:1050px;
+   }
+   #Art2{text-align:left;
+   position:absolute;
+   left:1000px;
+  top:5780px;
+   }
+   #ART3{
+	   text-align:left;
+	   position:absolute;
+	   left:1050px;
+	  top:6300px;
+   }
+   h1,h2,h3,h4,h5,h6 {font-family:'Pacifico', cursive;}
+   .LastP {font-family:Bookman;
+   font-weight:300;
+   font-size:17px;
+   }
+   p {font-family: 'Henny Penny' cursive;
+   font-size:17px;
+   }
+.AllLesyaDiv{width:1600px;
+height:100%;
+text-align:left;
+}
+#ChildTableLesya{font-family: 'Henny Penny', cursive;}
+body {background-image: url(https://www.xmple.com/wallpaper/pink-blue-gradient-linear-5120x2880-c2-87cefa-ffb6c1-a-15-f-14.svg);
+background-size: 100%;
+background-attachment:fixed;
+}

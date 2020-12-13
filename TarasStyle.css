@@ -1,0 +1,85 @@
+
+main{
+	position:absolute;
+	top:-10px;
+	left:1350px;
+	
+	transform:translate(10%,10%);
+	width:350px;
+	height:450px;
+	overflow: hidden;
+}
+main .imageTaras,
+main .textTaras{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;	
+	transition:0.5s;
+}
+	main .imageTaras img{
+	width:100%;
+}
+main .textTaras{
+	background:rgba(46,45,45,0.9);
+	top:0;
+	left:100%;  
+	padding:30px 30px;
+}
+main:hover .textTaras{
+	top:0;
+	left:0;
+}
+main .textTaras h1{
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0 0 12px;
+	border-bottom: 2px solid white;
+	animation: anim 5s linear
+	infinite;
+}
+@keyframes anim{
+	0%{border-bottom: 2px solid
+	##ff4a63}
+	25%{border-bottom: 2px solid 
+	#ff576b;}
+	50%{border-bottom: 2px solid
+	#ffdbe0;}
+	75%{border-bottom: 2px solid
+	#ff576b;}
+	100%{border-bottom: 2px solid 
+	#ffffff;}
+}
+main .textTaras p{
+	margin:12px 0 0;
+	color:white;
+	letter-spacing: 0.6;
+	font-size:19px;
+}
+.AllTextDiv{width:1600px;
+height:100%;
+text-align:left;
+}
+p{font-family: 'Roboto', sans-serif;}
+h1,h2{font-family: 'Caveat', cursive;
+font-size:37px;
+}
+h3,h4{font-family: 'Caveat', cursive;
+font-size:27px;}
+.PHTaras{font-family:cursive;}
+#TarasPhotoLeft{float:left; /*Вирівнювання по лівому краю */
+    margin: 7px 7px 7px 0; /* Відступи навколо картинки */}
+	#TarasPhotoRight{float: right; 
+    margin: 7px 0 7px 7px;}
+	#TarasTable{font-family:'Philosopher', sans-serif; text-align:center; background:#f5dc62;}
+	#Italic{font-family:'Cormorant Infant', serif; font-size:25px;}
+	.DivBG{background:#f5dc62; font-family:'Cormorant Infant', serif; font-size:25px; width:1390px;}
+	#Italic2{font-family:'Cormorant Infant', serif; font-size:21px;}
+	#TableTarasS {position:absolute;
+	bottom:-8870px;
+	right:200px;
+	}
+	#NewTaskP{font-family:'Cormorant Infant', serif;}
+	.DivBG2{background:#f5dc62; font-family:'Cormorant Infant', serif; font-size:25px; width:1290px;}
+	#ARTICLE1{font-family:'Cormorant Infant', serif; font-size:23px;}

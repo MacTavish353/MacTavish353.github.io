@@ -1,0 +1,96 @@
+body {font-family: 'Turret Road', cursive;}
+body {font-family: 'Roboto', sans-serif;}
+main{
+	position:absolute;
+	top:-10px;
+	left:1350px;
+	
+	transform:translate(10%,10%);
+	width:350px;
+	height:350px;
+	overflow: hidden;
+}
+main .image1,
+main .text1{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;	
+	transition:0.5s;
+}
+	main .image1 img{
+	width:100%;
+}
+main .text1{
+	background:rgba(46,45,45,0.9);
+	top:0;
+	left:100%;  
+	padding:30px 30px;
+}
+main:hover .text1{
+	top:0;
+	left:0;
+}
+main .text1 h1{
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0 0 12px;
+	border-bottom: 2px solid white;
+	animation: anim 5s linear
+	infinite;
+}
+@keyframes anim{
+	0%{border-bottom: 2px solid
+	##ff4a63}
+	25%{border-bottom: 2px solid 
+	#ff576b;}
+	50%{border-bottom: 2px solid
+	#ffdbe0;}
+	75%{border-bottom: 2px solid
+	#ff576b;}
+	100%{border-bottom: 2px solid 
+	#ffffff;}
+}
+main .text1 p{
+	margin:12px 0 0;
+	color:white;
+	letter-spacing: 0.6;
+	font-size:19px;
+}
+#textPbilly {font-family:Verdana; font-size:16px; font-weight: 100;}
+#tdBilly {background-color:#d7ded9; text-align:center;}
+.divBilly {width:1180px; height:50px; background-color:#ede211; text-align:center;}
+.divBilly1{width:1180px; height:30px; background-color:#f5edf7; text-align:center;}
+body {font-family:Verdana}
+h1,h2,h3,h4{font-family:'Turret Road', cursive;
+font-style: italic;}
+#tableBilly{font-family:'Roboto' sans-serif;
+position:absolute;
+top:390px;
+right:160px;
+}
+.KarieraBIlly{font-family:Luminari;
+font-style:normal;
+}
+#Spyski {font-family:'Henny Penny', cursive;
+font-size:20px;
+}
+p {font-family:'Roboto' sans-serif;}
+.AllTextSite{width:1600px;
+height:150%;
+text-align:left;
+}
+.BillyLastDiv{width:1280px;
+height:189px;
+}
+#BillySylki{text-decoration:none;
+color:red;
+}
+#BillySylki:hover{text-decoration:underline;}
+body {background-image: url(https://ramki-vsem.ru/fon/fon-nebo15.jpg);
+background-size: 100%;
+background-attachment:fixed;
+}
+.LastHNo1{font-family:'Henny Penny', cursive;}
+h1,h2,h3,h4,h5,h6{font-family:'Balsamiq Sans', cursive;}

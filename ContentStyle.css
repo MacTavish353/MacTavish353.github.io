@@ -1,0 +1,122 @@
+
+body {font-family: 'Turret Road', cursive;}
+body {font-family: 'Roboto', sans-serif;}
+
+.image {
+	margin:0;
+	padding:0;
+}
+main{
+	position:absolute;
+	top:10px;
+	left:1310px;
+	
+	transform:translate(10%,10%);
+	width:350px;
+	height:385px;
+	overflow: hidden;
+}
+main .image,
+main .text{
+	width:100%;
+	height:100%;
+	position:absolute;
+	box-sizing: border-box;	
+	transition:0.5s;
+}
+main .image img{
+	width:100%;
+}
+main .text{
+	background:rgba(46,45,45,0.9);
+	top:0;
+	left:100%;  
+	padding:30px 30px;
+}
+main:hover .text{
+	top:0;
+	left:0;
+}
+main .text h1{
+	color:white;
+	text-align:center;
+	margin:0;
+	padding:0 0 12px;
+	border-bottom: 2px solid white;
+	animation: anim 5s linear
+	infinite;
+}
+@keyframes anim{
+	0%{border-bottom: 2px solid
+	##ff4a63}
+	25%{border-bottom: 2px solid 
+	#ff576b;}
+	50%{border-bottom: 2px solid
+	#ffdbe0;}
+	75%{border-bottom: 2px solid
+	#ff576b;}
+	100%{border-bottom: 2px solid 
+	#ffffff;}
+}
+main .text p{
+	margin:12px 0 0;
+	color:white;
+	letter-spacing: 0.6;
+	font-size:19px;
+}
+.BlokDiv{
+	width:100%;
+	height:10px;
+	background:gray;
+}
+.BLOKDIV{
+	width:10px;
+	height:700px;
+	background:gray;
+}
+#H1{
+	position:absolute;
+	right:300px;
+	font-family:fantasy;
+}
+#TextH{position:absolute;
+left:300px;
+font-family:fantasy;
+}
+#PhotoGlobalUK{
+	position:absolute;
+	top:100px;
+	border-color:white;
+}
+.EuPhoto{
+	position:absolute;
+	top:100px;
+	right:485px;
+	border-color:white;
+}
+.BillyEU{
+	position:absolute;
+	top:100px;
+	right:20px;
+	border-color:white;
+		
+}
+.TEXTMOzartP{font-family:cursive;
+font-size:14px;
+}
+.MozartClassP{font-family:'Turret Road', cursive;}
+#TDMOZArt{font-family:Luminari;
+font-style:oblique;
+}
+.AllDivMozart{width:1500px;
+height:100%;
+text-align:left;
+background:#e8faed;
+border-radius:20px;
+}
+.TarasCT {position:absolute;
+top:100px;
+	right:890px;
+	border-color:white;
+
+}
